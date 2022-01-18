@@ -1,0 +1,35 @@
+<html>
+    
+    <style>
+        body{
+            background-image: url("pokemt.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center; 
+        }
+    
+    </style>
+    <center><h1>Procurar Pokemon</h1></center>
+    
+    <body>
+        <main class="container">
+        
+            <form class="search">
+              <input type="search" class="procurar" id="procurar" placeholder="número ou o nome do pokemon" >
+            </form>
+            
+
+            <button class="procu" onclick="procu()" >Procurar</button>
+        
+            <div id="container2">
+                <center><h2 id="nome">Nome</h2></center>
+                <center><img id='pic'></center>
+                <center><h2 id="numero">numero</h2></center>
+            </div>
+            <span id="table"></span>
+            <span id="stat"></span>
+          </main>
+          
+    </body>
+    
+</html>
